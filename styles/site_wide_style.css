@@ -1,0 +1,67 @@
+/* control slash to make a comment */
+html{
+    background-color: #9b7dcc;
+    font-family: 'Cedarville Cursive', cursive;
+}
+/* html has two children, head and body */
+body {
+    line-height: 1.3;
+    background: #fff !important;
+    color: #000;
+    background-color:rgb(255, 255, 255);
+    width: 800px;
+    border: 5px solid black;
+    padding: 0 20px 0px 20px;
+    margin: 0 auto;
+}
+p{
+    font: 13pt Georgia, "Times New Roman", Times, serif;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    border: 2px dotted pink;
+    padding: 0 10px 10px 10px;
+}
+
+ul, ol {
+    font: 13pt Georgia, "Times New Roman", Times, serif;
+    color:rgb(50, 153, 255);
+    line-height: 1;
+    list-style: circle; margin-left: 18pt;
+    margin-bottom: 20pt;    
+}
+.bold{
+    font-weight:bold;
+}
+p.bold{
+    text-decoration: underline;
+}
+#subjectintro{
+    color:aquamarine;
+    text-transform: lowercase;
+    text-indent: 10%;
+}
+img{
+    width: 70%;
+    display: block;
+    /* margin: 0 auto */
+}
+
+/* css frameworks such as Bootstrap or Materialize
+download other people's CSS files */
+
+div.coolbox{
+    border: lightblue dotted 3px;
+    padding: 20px;
+    margin:10px;
+}
+span.language{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+p.hover{
+    text-transform: uppercase;
+}
