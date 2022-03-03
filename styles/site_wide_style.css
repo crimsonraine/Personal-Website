@@ -22,6 +22,7 @@ p{
 h1{
     font-size: 60px;
     text-align: center;
+    color:green;
     border: 2px dotted pink;
     padding: 0 10px 10px 10px;
 }
@@ -34,18 +35,20 @@ ul, ol {
     margin-bottom: 20pt;    
 }
 .bold{
-    font-weight:bold;
-}
-p.bold{
+    font-stretch: semi-expanded;
     text-decoration: underline;
 }
-#subjectintro{
+
+#bighint{
     color:aquamarine;
     text-transform: lowercase;
     text-indent: 10%;
+    text-align: center;
+    direction:rtl;
+    unicode-bidi: bidi-override;
 }
 img{
-    width: 70%;
+    width: 90%;
     display: block;
     /* margin: 0 auto */
 }
